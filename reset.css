@@ -1,0 +1,62 @@
+body{
+    background-color: #096607;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: rgb(3, 10, 12);
+    
+    }
+
+.logo img{
+    width: 50px;
+    height: 60px;
+    background-color: aqua;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8okIE7BBBa28F-etAYvvrtItF-jyX-xnV2w&usqp=CAU  );
+}
+.flex{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 0 10px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #8d2106fc;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+ 
+ul li a:hover{
+    color: aliceblue;
+    background: #cf8908;
+    padding: 5px 10px;
+    border-radius: 5px
+
+}
+#page1{
+   background-image: url(  https://c4.wallpaperflare.com/wallpaper/405/151/750/light-wall-background-hd-wallpaper-preview.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100%;
+   position: relative;
+      
+}
+
+#page1 p, #page1 h1, #page1 h2 {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    text-shadow: 3px 1px 5px #000000, -2px 3px 3px black;  
+    
+ }   
+
+ 
+
+ 
