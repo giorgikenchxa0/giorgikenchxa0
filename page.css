@@ -1,9 +1,10 @@
 body{
-    background-color: rgb(10, 10, 18);
+    background-color: rgb(235, 235, 242);
+    background-image: url( https://upload.travelawaits.com/ta/uploads/2021/05/shutterstock_629182610-2.jpg );
 }
 
 #page1 p,  #page1 h1, #page1 h2{
-    color: #f4efef;
+    color: #e4dede;
     text-align: center;
     align-items: center;
     margin: 10px;
