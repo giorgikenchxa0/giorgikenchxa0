@@ -20,15 +20,17 @@ ul li{
     margin: 0 10px;
 
 }
-
+ 
 ul li a{
     text-decoration: none;
-    color: #8d2106fc;
+    color: red;
     font-size: 20px;
     font-weight: bold;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+
+
 }
- 
+    
 ul li a:hover{
     color: aliceblue;
     background: #cf8908;

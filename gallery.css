@@ -3,11 +3,36 @@ body{
     background-image: url( https://img1.cgtrader.com/items/2507118/f41c9ec05e/most-popular-luxury-brand-logos-3d-model-max-obj-3ds-fbx-stl-dwg.jpg );
 
 }
-#page2 div {
-    color: rgb(1, 5, 8);
-    text-align: flex-start;
-    align-items: flex-start;
-    padding: 10px;
-    margin: 10px;
+
+
+.flex{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 10px;
+
+}
+ 
+ul li a{
+    text-decoration: none;
+    color: rgba(105, 100, 100, 0.753);
+    font-size: 20px;
+    font-weight: bold;
+    transition: all .3s ease-in-out
+
+
+}
     
+ul li a:hover{
+    color: aliceblue;
+    background: #150f03;
+    padding: 5px 10px;
+    border-radius: 5px
+
+}
+ul li .flex{
+    justify-content:flex-end;
+    align-items:flex-start;
 }

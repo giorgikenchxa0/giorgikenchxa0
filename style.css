@@ -1,6 +1,7 @@
 body{
     background-image: url( https://miro.medium.com/max/1000/1*2_iEw7z3swW7uSXAE_DOQA.jpeg);
     font-size: larger;
+    background-size: cover;
 
    
 }
@@ -19,3 +20,29 @@ body{
 
 
     
+.flex{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 0 10px;
+
+}
+ 
+ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all .3s ease-in-out
+
+
+}
+    
+ul li a:hover{
+    color: aliceblue;
+    background: #cf8908;
+    padding: 5px 10px;
+    border-radius: 5px
+
+}

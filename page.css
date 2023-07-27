@@ -1,6 +1,7 @@
 body{
     background-color: rgb(235, 235, 242);
     background-image: url( https://upload.travelawaits.com/ta/uploads/2021/05/shutterstock_629182610-2.jpg );
+    background-size: cover;
 }
 
 #page1 p,  #page1 h1, #page1 h2{
@@ -11,4 +12,36 @@ body{
     padding: 10px;
     text-shadow: 3px 1px 5px #000000, -2px 3px 3px black
 
+    
 }
+.flex{
+  display: flex;
+}
+  
+ul li{
+  list-style: none;
+  margin: 0 10px;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: rgb(0, 229, 255);
+  font-size: 20px;
+  font-weight: bold;
+  transition: all .3s ease-in-out
+
+
+}
+  
+ul li a:hover{
+  color: aliceblue;
+  background: #0837cf;
+  padding: 5px 10px;
+  border-radius: 5px
+
+}
+
+  
+ 
+
