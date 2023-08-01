@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APP</title>
-    <link rel="stylesheet" href="page.css">
+    <meta name="author" content="Giorgi Kenchkhadze"/>
+    <meta name="description" content="This website is about"/>
+    <title>FINAL PROJECT</title>
+    <link rel="stylesheet" href="reset.css"> 
     <script src="main.js" defer></script>
 
     <meta property="og:url"  content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
-    <meta property="og:type"  content="article" />
+    <meta property="og:type"  content="website" />
     <meta property="og:title" content="When Great Minds Don’t Think Alike" />
     <meta property="og:description"  content="How much does culture influence creative thinking?" />
     <meta property="og:image"  content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
@@ -16,21 +18,46 @@
 </head>
 <body>
     <header>
-        <ul class="flex">
-      <li><a href="page.html">Home</a></li>
-      <li><a href="index.html">about us</a></li>
-      <li><a href="contact.htm">contact us</a></li>
-      <li><a href="Gallery.html">search</a></li>
-  </ul>
-  <section id="page1">
-   <h2>about website</h2>
-    <p>This website is create for your convenience because you can buy everything </p>
-    <p> you can buy everything without leaving Home  ARE YOU READY FOR SUCCESSFUL SHOPPING</p>
-    <p> wish you luck</p>
-   
-</section>
-</header>
-  
+   <div class="flex">
+      <div class="logo">
+        <img src="img/modern-company-logo-design-vector.jpg" alt="logo">
+      </div>
+      <nav>
+        <ul class="flex"> 
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="about.html">about us</a></li>
+             <li> <a href="contact.htm">contact us</a></li>
+            <li> <a href="Search.html">search</a></li>
+        </ul>
+      </nav>
+     </div> 
+     
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+    </header>
+    <section id="page1">
+        <h2> welcome</h2>
+         <p>wish you luck</p>
+     </section>
+
+    
 
 </body>
 </html>

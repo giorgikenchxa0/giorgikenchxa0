@@ -1,10 +1,13 @@
 body{
-    background-color: #096607;
-    font-size: 2rem;
-    padding: 10px;
-    background-color: rgb(3, 10, 12);
-    
-    }
+  background-color: #096607;
+  font-size: 2rem;
+  padding: 10px;
+  background-color: rgb(3, 10, 12);
+  
+  }
+.flex{
+  display: flex;
+}
 
 .logo img{
     width: 50px;
@@ -12,9 +15,9 @@ body{
     background-color: aqua;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8okIE7BBBa28F-etAYvvrtItF-jyX-xnV2w&usqp=CAU  );
 }
-.flex{
-    display: flex;
-}
+
+
+
 ul li{
     list-style: none;
     margin: 0 10px;

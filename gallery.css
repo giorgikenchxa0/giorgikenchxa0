@@ -1,7 +1,6 @@
 body{
     background-color: rgb(54, 146, 109);
     background-image: url( https://img1.cgtrader.com/items/2507118/f41c9ec05e/most-popular-luxury-brand-logos-3d-model-max-obj-3ds-fbx-stl-dwg.jpg );
-
 }
 
 
@@ -12,7 +11,6 @@ body{
 ul li{
     list-style: none;
     margin: 0 10px;
-
 }
  
 ul li a{
@@ -21,8 +19,6 @@ ul li a{
     font-size: 20px;
     font-weight: bold;
     transition: all .3s ease-in-out
-
-
 }
     
 ul li a:hover{
@@ -30,9 +26,53 @@ ul li a:hover{
     background: #150f03;
     padding: 5px 10px;
     border-radius: 5px
-
 }
+
 ul li .flex{
     justify-content:flex-end;
     align-items:flex-start;
 }
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgb(9, 9, 9);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color:105, 100, 100, 0.753 ;
+    color: rgb(188, 6, 6);
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: 108, 100, 100, 0.753;
+    color: rgb(250, 250, 250);
+  }
+
