@@ -22,13 +22,13 @@ body{
 .flex{
     display: flex;
 }
-ul li{
+  ul li{
     list-style: none;
     margin: 0 10px;
 
 }
  
-ul li a{
+  ul li a{
     text-decoration: none;
     color: rgba(128, 77, 16, 0.99);
     font-size: 20px;
@@ -38,7 +38,7 @@ ul li a{
 
 }
     
-ul li a:hover{
+  ul li a:hover{
     color: rgb(149, 87, 11);
     background: #000000;
     padding: 5px 10px;

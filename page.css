@@ -18,13 +18,13 @@ body{
   display: flex;
 }
   
-ul li{
+ ul li{
   list-style: none;
   margin: 0 10px;
 
 }
 
-ul li a{
+ li a{
   text-decoration: none;
   color: rgb(19, 223, 23);
   font-size: 20px;
@@ -34,7 +34,7 @@ ul li a{
 
 }
   
-ul li a:hover{
+ ul li a:hover{
   color: aliceblue;
   background: #068434;
   padding: 5px 10px;
@@ -48,7 +48,7 @@ ul li a:hover{
  }
 
 
- #page1 {
+ #page1{
   position: relative;
   left: 50px;
   top: 100px;
